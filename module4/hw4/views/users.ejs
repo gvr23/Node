@@ -1,0 +1,11 @@
+<%- include('includes/head.ejs') %>
+</head>
+<body>
+    <% user.forEach(usr => { %>
+        <ul>
+            <li><%= usr.name %></li>
+        </ul>
+    <% }) %>
+    <button><a href="/">Back</a></button>
+</body>
+</html>
